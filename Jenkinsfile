@@ -17,7 +17,7 @@ pipeline {
                 script {
                     // Run Ansible playbook
                     sh 'ansible-playbook -i inventory initial.yml'
- '
+ 
                 }
             }
         }
